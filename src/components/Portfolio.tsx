@@ -74,7 +74,7 @@ const Portfolio = () => {
           {portfolioItems.map((item) => (
             <div 
               key={item.id} 
-              className="portfolio-card"
+              className="portfolio-card group"
               onClick={() => openLightbox(item)}
             >
               <img 

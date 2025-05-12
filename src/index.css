@@ -121,9 +121,14 @@ html {
 
 /* Portfolio card */
 .portfolio-card {
-  @apply relative overflow-hidden rounded-lg cursor-pointer transition-all duration-300 group;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
+/* We add the group class directly in the HTML markup, not in @apply */
 .portfolio-card-overlay {
   @apply absolute inset-0 bg-navy/80 opacity-0 flex items-center justify-center transition-all duration-300 group-hover:opacity-100;
 }
