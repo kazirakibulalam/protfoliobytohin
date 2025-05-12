@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="text-center mb-10">
           <h3 className="text-xl md:text-2xl font-bold text-white mb-4">Ready to elevate your web and app design?</h3>
           <p className="text-gray-300 text-lg mb-6">Let's collaborate and make your vision a reality!</p>
-          <a href="#contact" className="btn btn-primary">Get in Touch</a>
+          <a href="#contact" className="btn btn-primary">Contact Me</a>
         </div>
         
         <div className="text-center mt-8">
@@ -58,3 +58,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
