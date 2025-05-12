@@ -33,7 +33,7 @@ const Contact = () => {
     <section id="contact" className="bg-navy-light py-24">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title">Contact Me</h2>
+          <h2 className="section-title">Get in Touch</h2>
           <div className="h-1 w-24 bg-gold mx-auto mt-4 mb-6"></div>
           <p className="section-subtitle">Get in touch for collaboration or inquiries</p>
         </div>
