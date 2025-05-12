@@ -8,9 +8,19 @@ import {
 const Services = () => {
   const services = [
     {
+      icon: <Video className="text-gold" size={36} />,
+      title: "Video Editing",
+      description: "Professional video editing services to enhance your visual storytelling."
+    },
+    {
       icon: <PenTool className="text-gold" size={36} />,
       title: "Logo Design",
       description: "Distinctive and memorable logo designs that represent your brand identity."
+    },
+    {
+      icon: <Video className="text-gold" size={36} />,
+      title: "AI Video Creator",
+      description: "Cutting-edge AI-powered video creation for engaging digital content."
     },
     {
       icon: <Instagram className="text-gold" size={36} />,
@@ -41,11 +51,6 @@ const Services = () => {
       icon: <SlidersHorizontal className="text-gold" size={36} />,
       title: "Presentation Slides",
       description: "Professional presentation templates for impactful communication."
-    },
-    {
-      icon: <Video className="text-gold" size={36} />,
-      title: "Video Editing",
-      description: "Professional video editing services to enhance your visual storytelling."
     }
   ];
 
