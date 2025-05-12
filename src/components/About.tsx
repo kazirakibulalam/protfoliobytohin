@@ -1,7 +1,18 @@
+
 import { Download } from 'lucide-react';
+
 const About = () => {
-  const skills = ["Adobe Photoshop", "Adobe Illustrator", "Figma", "Adobe XD", "UI/UX Design", "Brand Identity Design"];
-  return <section id="about" className="bg-navy-light py-24">
+  const skills = [
+    "Adobe Photoshop",
+    "Adobe Illustrator", 
+    "Figma",
+    "Adobe XD",
+    "UI/UX Design",
+    "Brand Identity Design"
+  ];
+
+  return (
+    <section id="about" className="bg-navy-light py-24">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <h2 className="section-title">About Me</h2>
@@ -14,7 +25,11 @@ const About = () => {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-gold rounded-lg"></div>
               <div className="relative z-10 overflow-hidden rounded-lg">
-                <img alt="Rakibul Alam Tohin" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500" src="https://i.imgur.com/x3GFg68.png" />
+                <img 
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+                  alt="Rakibul Alam Tohin" 
+                  className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500"
+                />
               </div>
             </div>
           </div>
@@ -31,10 +46,12 @@ const About = () => {
             <div className="mb-8">
               <h4 className="text-xl font-medium text-white mb-4">Core Skills</h4>
               <div className="grid grid-cols-2 gap-3">
-                {skills.map((skill, index) => <div key={index} className="flex items-center gap-2">
+                {skills.map((skill, index) => (
+                  <div key={index} className="flex items-center gap-2">
                     <span className="w-2 h-2 bg-gold rounded-full"></span>
                     <span className="text-gray-300">{skill}</span>
-                  </div>)}
+                  </div>
+                ))}
               </div>
             </div>
 
@@ -45,6 +62,8 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default About;
