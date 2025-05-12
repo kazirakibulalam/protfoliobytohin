@@ -2,16 +2,11 @@
 import React from 'react';
 import { 
   PenTool, Palette, Layout, Video, Instagram, CreditCard, 
-  MousePointer, Package2, SlidersHorizontal 
+  MousePointer, SlidersHorizontal 
 } from 'lucide-react';
 
 const Services = () => {
   const services = [
-    {
-      icon: <Video className="text-gold" size={36} />,
-      title: "Video Editing",
-      description: "Professional video editing services to enhance your visual storytelling."
-    },
     {
       icon: <PenTool className="text-gold" size={36} />,
       title: "Logo Design",
@@ -43,14 +38,14 @@ const Services = () => {
       description: "Compelling advertisement designs optimized for various platforms."
     },
     {
-      icon: <Package2 className="text-gold" size={36} />,
-      title: "Packaging Design",
-      description: "Attractive packaging solutions that enhance product appeal."
-    },
-    {
       icon: <SlidersHorizontal className="text-gold" size={36} />,
       title: "Presentation Slides",
       description: "Professional presentation templates for impactful communication."
+    },
+    {
+      icon: <Video className="text-gold" size={36} />,
+      title: "Video Editing",
+      description: "Professional video editing services to enhance your visual storytelling."
     }
   ];
 
