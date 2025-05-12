@@ -1,22 +1,21 @@
-
 import { useState, FormEvent } from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
+    const {
+      name,
+      value
+    } = e.target;
     setFormData({
       ...formData,
       [name]: value
     });
   };
-
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     // Form submission logic would go here
@@ -28,9 +27,7 @@ const Contact = () => {
       message: ''
     });
   };
-
-  return (
-    <section id="contact" className="bg-navy-light py-24">
+  return <section id="contact" className="bg-navy-light py-24">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <h2 className="section-title">Get in Touch</h2>
@@ -44,44 +41,17 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-white mb-2">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 bg-navy border border-gray-700 rounded-md focus:outline-none focus:border-gold text-white"
-                  placeholder="Your Name"
-                />
+                <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required className="w-full px-4 py-3 bg-navy border border-gray-700 rounded-md focus:outline-none focus:border-gold text-white" placeholder="Your Name" />
               </div>
               
               <div>
                 <label htmlFor="email" className="block text-white mb-2">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 bg-navy border border-gray-700 rounded-md focus:outline-none focus:border-gold text-white"
-                  placeholder="Your Email"
-                />
+                <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required className="w-full px-4 py-3 bg-navy border border-gray-700 rounded-md focus:outline-none focus:border-gold text-white" placeholder="Your Email" />
               </div>
               
               <div>
                 <label htmlFor="message" className="block text-white mb-2">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={6}
-                  className="w-full px-4 py-3 bg-navy border border-gray-700 rounded-md focus:outline-none focus:border-gold text-white resize-none"
-                  placeholder="Your Message"
-                />
+                <textarea id="message" name="message" value={formData.message} onChange={handleChange} required rows={6} className="w-full px-4 py-3 bg-navy border border-gray-700 rounded-md focus:outline-none focus:border-gold text-white resize-none" placeholder="Your Message" />
               </div>
               
               <button type="submit" className="btn btn-primary w-full">Send Message</button>
@@ -103,7 +73,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-medium">Phone</h4>
-                    <p className="text-gray-300">+123 456 7890</p>
+                    <p className="text-gray-300">+880 1522 108229</p>
                   </div>
                 </div>
                 
@@ -162,8 +132,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
