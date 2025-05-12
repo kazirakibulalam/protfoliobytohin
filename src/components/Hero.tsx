@@ -11,9 +11,7 @@ const Hero = () => {
               Rakibul Alam <span className="text-gold">Tohin</span>
             </h1>
             <div className="h-1 w-24 bg-gold mx-auto lg:mx-0"></div>
-            <p className="text-xl md:text-2xl text-gray-300">Graphic Designer & Video Editor
-
-
+            <p className="text-xl md:text-2xl text-gray-300 my-[5px] py-0 px-0">Graphic Designer & Video Editor 
 Cyber Editor</p>
             <div className="pt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
               <a href="#portfolio" className="btn btn-primary">View My Work</a>
