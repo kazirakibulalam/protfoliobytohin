@@ -14,25 +14,25 @@ const Reviews = () => {
   const reviews: Review[] = [
     {
       id: 1,
-      name: "Alex Johnson",
+      name: "Rahul Ahmed",
       position: "Marketing Director",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80",
       rating: 5,
       text: "Working with Rakibul was a fantastic experience. He understood our brand and delivered exceptional designs that perfectly captured our vision."
     },
     {
       id: 2,
-      name: "Sarah Williams",
+      name: "Nusrat Jahan",
       position: "Startup Founder",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=150&q=80",
       rating: 5,
       text: "Rakibul created an amazing logo and brand identity for my startup. His attention to detail and creativity exceeded my expectations."
     },
     {
       id: 3,
-      name: "Michael Chen",
+      name: "Farhan Khan",
       position: "Product Manager",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
       rating: 4,
       text: "Great designer with strong UI/UX skills. Rakibul helped us improve our app interface, resulting in significantly better user engagement."
     }

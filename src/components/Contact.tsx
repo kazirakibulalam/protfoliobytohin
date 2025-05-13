@@ -1,5 +1,6 @@
+
 import { useState, FormEvent } from 'react';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Discord } from 'lucide-react';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -126,6 +127,9 @@ const Contact = () => {
                     <circle cx="12" cy="12" r="10"></circle>
                     <path d="M9.09 8.82 14 12l-4.91 3.18v-6.36"></path>
                   </svg>
+                </a>
+                <a href="#" className="w-10 h-10 bg-navy hover:bg-gold/20 border border-gray-700 hover:border-gold rounded-full flex items-center justify-center transition-colors duration-300">
+                  <Discord size={18} className="text-gold" />
                 </a>
               </div>
             </div>
