@@ -1,6 +1,18 @@
+
 import { Download } from 'lucide-react';
 const About = () => {
   const skills = ["Adobe Photoshop", "Adobe Illustrator", "Figma", "Adobe XD", "UI/UX Design", "Brand Identity Design"];
+  
+  const handleDownloadCV = () => {
+    // Create a link element
+    const link = document.createElement('a');
+    link.href = '/lovable-uploads/7e66311d-6f79-41bf-98fd-4be74cd9c95c.png';
+    link.download = 'Rakibul_Alam_Tohin_CV.png';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  
   return <section id="about" className="bg-navy-light py-24">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
@@ -36,10 +48,10 @@ const About = () => {
               </div>
             </div>
 
-            <a href="#" className="btn btn-primary flex items-center gap-2 w-fit">
+            <button onClick={handleDownloadCV} className="btn btn-primary flex items-center gap-2 w-fit">
               <Download size={18} />
               Download CV
-            </a>
+            </button>
           </div>
         </div>
       </div>

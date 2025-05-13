@@ -4,9 +4,9 @@ import { Calendar, Briefcase } from 'lucide-react';
 const Resume = () => {
   const education = [
     {
-      period: "2018 - 2020",
+      period: "2021 - 2023",
       degree: "Diploma in Graphics",
-      institution: "Creative IT Institute",
+      institution: "Cyber IT Institute",
       description: "Specialized training in graphic design fundamentals, digital illustration, and branding design."
     },
     {
@@ -21,17 +21,17 @@ const Resume = () => {
     {
       period: "2020 - Present",
       position: "Freelance Designer",
-      company: "Fiverr & Upwork",
+      company: "Individual designer",
       description: "Creating custom design solutions for international clients, specializing in brand identity and digital marketing visuals."
     },
     {
-      period: "2019 - 2020",
+      period: "2022 - 2024",
       position: "Design Intern",
       company: "Local Print Studio",
       description: "Assisted with layout design and prepress preparation for various print projects."
     },
     {
-      period: "2018 - 2019",
+      period: "2021 - 2024",
       position: "Student Projects",
       company: "Color Theory & UI Practice",
       description: "Worked on multiple academic projects focused on color theory application and UI design principles."
