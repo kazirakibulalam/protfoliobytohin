@@ -1,12 +1,13 @@
 
 import { Download } from 'lucide-react';
+
 const About = () => {
   const skills = ["Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere Pro", "Adobe XD", "UI/UX Design", "Video Editing"];
   
   const handleDownloadCV = () => {
     // Create a link element
     const link = document.createElement('a');
-    link.href = '/lovable-uploads/7e66311d-6f79-41bf-98fd-4be74cd9c95c.png';
+    link.href = '/lovable-uploads/e840f178-b52a-46ae-9e82-a5bafceb8411.png';
     link.download = 'Rakibul_Alam_Tohin_CV.png';
     document.body.appendChild(link);
     link.click();
