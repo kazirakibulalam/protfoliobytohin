@@ -10,9 +10,9 @@ const Resume = () => {
       description: "Specialized training in graphic design fundamentals, digital illustration, and branding design."
     },
     {
-      period: "2016 - 2018",
+      period: "2022 - 2024",
       degree: "HSC",
-      institution: "ABC College",
+      institution: "Govt. Shahid Shohrawardy College",
       description: "Completed higher secondary education with a focus on arts and creative studies."
     }
   ];

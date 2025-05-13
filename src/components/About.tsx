@@ -1,7 +1,7 @@
 
 import { Download } from 'lucide-react';
 const About = () => {
-  const skills = ["Adobe Photoshop", "Adobe Illustrator", "Figma", "Adobe XD", "UI/UX Design", "Brand Identity Design"];
+  const skills = ["Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere Pro", "Adobe XD", "UI/UX Design", "Video Editing"];
   
   const handleDownloadCV = () => {
     // Create a link element
